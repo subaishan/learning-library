@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\c++文件储存库\c++项目\data_learn2\test.cpp(7,8): warning C4273: “log2”: dll 链接不一致
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(522,47): message : 参见“log2”的前一个定义
+  data_learn2.vcxproj -> D:\c++文件储存库\c++项目\data_learn2\x64\Debug\data_learn2.exe
