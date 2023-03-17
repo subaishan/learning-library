@@ -1,0 +1,23 @@
+﻿  Scene.cpp
+  test.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(832,27): error C2440: “static_cast”: 无法从“std::map<_Newfirst,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>”转换为“std::map<_Newfirst,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>”
+          with
+          [
+              _Newfirst=int
+          ]
+          and
+          [
+              _Newfirst=std::_Container_proxy
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(832,27): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(829,1): message : 在编译 类 模板 成员函数“std::vector<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>::~vector(void) noexcept”时
+D:\c++文件储存库\c++项目\机房管理系统(c++入门检测)\Scene.h(26,1): message : 查看对正在编译的函数 模板 实例化“std::vector<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>::~vector(void) noexcept”的引用
+D:\c++文件储存库\c++项目\机房管理系统(c++入门检测)\Scene.h(15,32): message : 查看对正在编译的 类 模板 实例化“std::vector<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>”的引用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(832,25): error C2530: “_Alproxy”: 必须初始化引用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(833,1): error C3536: “_Alproxy”: 初始化之前无法使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(833,9): error C2672: “_Delete_plain_internal”: 未找到匹配的重载函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(992,19): message : 可能是“void std::_Delete_plain_internal(_Alloc &,_Alloc::value_type *const ) noexcept”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(833,9): message : 未能使函数模板“void std::_Delete_plain_internal(_Alloc &,_Alloc::value_type *const ) noexcept”专用化
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(833,9): message : 用下列模板参数:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(833,9): message : “_Alloc=int”
+  正在生成代码...
