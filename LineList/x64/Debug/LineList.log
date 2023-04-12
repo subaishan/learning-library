@@ -1,0 +1,4 @@
+﻿  LineList.cpp
+D:\c++文件储存库\c++项目\LineList\LineList.cpp(123): warning C4715: “LineList::addData”: 不是所有的控件路径都返回值
+D:\c++文件储存库\c++项目\LineList\LineList.cpp(276): warning C4715: “LineList::fun_2”: 不是所有的控件路径都返回值
+  LineList.vcxproj -> D:\c++文件储存库\c++项目\LineList\x64\Debug\LineList.exe
